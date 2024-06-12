@@ -107,13 +107,10 @@ using utils::nl;
 %nonassoc FUNCTION VAR TYPE DO OF ASSIGN;
 %left OR;
 %left AND;
-%left EQ;
-%lest NEQ;
+%left EQ NEQ;
 %left LT LE GT GE;
-%left MINUS;
-%left PLUS;
-%left DIVIDE;
-%left TIMES;
+%left PLUS MINUS;
+%left TIMES DIVIDE;
 %left UMINUS;
 
 %nonassoc BREAK;
